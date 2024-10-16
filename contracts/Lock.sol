@@ -292,4 +292,23 @@ contract Lock {
         // require(checkpoints[_checkpointId].id != address(0), "Checkpoint inexistant");
         checkpoints[_checkpointId].etat = _nouvelEtat;
     }
+    function verifierClient(address _clientId) public view returns (bool) {
+    return clients[_clientId].id != address(0);
+}
+    function verifierChauffeur(address _chauffeurId) public view returns (bool) {
+    return chauffeurs[_chauffeurId].id != address(0);
+}
+    function verifierControleur(address _controleurId) public view returns (bool) {
+    return controleurs[_controleurId].id != address(0);
+}
+    function verifierVehicule(address _vehiculeId) public view returns (bool) {
+    return vehicules[_vehiculeId].id != address(0);
+}
+    function verifierConteneur(address _conteneurId) public view returns (bool) {
+    return conteneurs[_conteneurId].id != address(0);
+}
+    function verifierTrajet(address _trajetId) public view returns (bool) {
+    return trajets[_trajetId].id != address(0);
+}
+
 }
