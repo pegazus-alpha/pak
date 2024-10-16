@@ -1,0 +1,56 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a2e; /* Dark background color */
+    padding: 15px 30px; /* Spacing inside the navbar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    position: relative; /* Allow positioning for shadow */
+    z-index: 10; /* Ensure it stays above other content */
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: #00d4ff; /* Logo color */
+    font-size: 24px; /* Logo font size */
+    font-weight: bold; /* Make logo bold */
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Spacing between links */
+  }
+  
+  .nav-links a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Link font size */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-links a:hover {
+    color: #00d4ff; /* Change color on hover */
+  }
+  
+  /* Navigation action buttons */
+  .nav-actions {
+    display: flex;
+    gap: 15px; /* Spacing between action buttons */
+  }
+  
+  .nav-button {
+    background-color: #00d4ff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-button:hover {
+    background-color: #00a1cc; /* Darken background on hover */
+  }
+  

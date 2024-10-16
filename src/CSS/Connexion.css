@@ -1,0 +1,54 @@
+/* Connexion.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .connected-info {
+    margin-top: 20px;
+  }
+  
+  .account {
+    font-weight: bold;
+    color: #2c3e50;
+    word-wrap: break-word;
+  }
+  
+  .error-msg {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
